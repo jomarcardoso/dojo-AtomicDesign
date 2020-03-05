@@ -38,7 +38,9 @@ São classificados como:
 
 ### Implementando
 
-![image](https://user-images.githubusercontent.com/27368585/75980958-42774300-5ec2-11ea-9d9f-53ce34ea2992.png)
+<kbd>
+  ![image](https://user-images.githubusercontent.com/27368585/75980958-42774300-5ec2-11ea-9d9f-53ce34ea2992.png)
+</kbd>
 
 Nessa imagem de um cabeçalho o ícone se repete 3x, logo ele é um componente e pode ser reaproveitado.
 
