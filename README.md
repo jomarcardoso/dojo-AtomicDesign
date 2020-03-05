@@ -42,8 +42,9 @@ São classificados como:
   <img src=https://user-images.githubusercontent.com/27368585/75980958-42774300-5ec2-11ea-9d9f-53ce34ea2992.png />
 </kbd>
 
-Nessa imagem de um cabeçalho o ícone se repete 3x, logo ele é um componente e pode ser reaproveitado.
+- Nessa imagem de um cabeçalho o ícone se repete 3x, logo ele é um componente e pode ser reaproveitado.
 
+**atoms/icon.css**
 ```css
 .icon {
   width: 100%;
@@ -51,6 +52,16 @@ Nessa imagem de um cabeçalho o ícone se repete 3x, logo ele é um componente e
 }
 ```
 
+- Aquele `padding` que envolve o conteúdo pode ser visto como algo do header, ou então se percebido como algo que ser repete na página, pode ser um componentes também.
+
+**atoms/menu.css**
+```css
+.menu {
+  padding: 15px;
+}
+```
+
+Independente dele ter outros elementos dentro dele na renderização, quando escrevemos seu CSS se ele não estiliza mais nenhum outro componente, ele é um átomo.
 
 ## Dúvidas frequentes
 
