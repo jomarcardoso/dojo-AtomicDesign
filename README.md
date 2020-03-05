@@ -16,7 +16,7 @@ No exemplo do livro sobre as praças fala que uma praça é constituída por vá
 
 ## Atomic design
 
-[Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões.
+[Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões. Não deve ser a única e nada impede que alguma outra seja criada.
 
 Os componentes ficam pequenos, pois a implementação de partes deles está em outro lugar.
 
