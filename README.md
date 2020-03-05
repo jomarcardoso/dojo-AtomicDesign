@@ -67,10 +67,19 @@ São classificados como:
 ```css
 .menu {
   padding: 15px;
+  background-color: white;
 }
 ```
 
 Independente dele ter outros elementos dentro dele na renderização, quando escrevemos seu CSS se ele não estiliza mais nenhum outro componente, ele é um átomo.
+
+- O que sobrou para o header? Nesse exemplo curto nada, mas se pensar que aquele menu hamburguer pode abrir e o botão de pesquisar também vai...
+
+![image](https://user-images.githubusercontent.com/27368585/75984046-79505780-5ec8-11ea-9e32-48d87e094db0.png)
+
+O header passa a ser a tela toda aqui. E ele deve ser responsável por orquestar as interações possíveis.
+
+Reparem que o menu de busca que abriu tem um `padding` e um `background` branco assim como o componente menu que declaramos acima, então não confundam, o menu de busca faz uso do outro componente e não implementa ele todo novamente.
 
 ## Dúvidas frequentes
 
