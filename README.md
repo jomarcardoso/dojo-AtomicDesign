@@ -18,6 +18,10 @@ No exemplo do livro sobre as praças fala que uma praça é constituída por vá
 
 [Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões.
 
+Os componentes ficam pequenos, pois a implementação de partes deles está em outro lugar.
+
+O componente deve ser auto-suficiente e isso é percebido quando colocado no guia de estilos.
+
 ### Tipos
 
 A classificação dos componente, ao meu ver, é algo discutível e situacional, apenas usado para organizar o conteúdo sem ficar tudo no mesmo lugar.
@@ -46,8 +50,6 @@ Nessa imagem de um cabeçalho o ícone se repete 3x, logo ele é um componente e
 ```
 
 
-- Os componentes ficam pequenos, pois a implementação de partes deles está em outro lugar.
-
 ## Dúvidas frequentes
 
 **"Tudo é um componente..." Mas e a página?** Bom, o a página vai fazer o mesmo que os componentes fazem que é estilizar os componentes menores.
@@ -57,13 +59,4 @@ Nessa imagem de um cabeçalho o ícone se repete 3x, logo ele é um componente e
 **Quando eu devo desconfiar que estou fazendo errado?** Principalmente quando o CSS se estende muito. Em regra, mais de 50 linhas já da para desconfiar fortemente.
 
 **Por que é importante todos entenderem?** Para todos juntos concordarem e fazerem junto.
-
-----
-
-- a nomenclatura não é tão importante
-- media queries não são tão importantes
-
-Mostrar um componente que vai se repetir no site mas a maioria das características é a mesma.
-
-O componente deve ser auto-suficiente e isso é percebido quando colocado no guia de estilos.
 
