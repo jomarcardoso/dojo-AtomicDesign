@@ -52,6 +52,15 @@ São classificados como:
 }
 ```
 
+- tanto o logo como o ícone tem a mesma característica de aumentar a imagem o máximo que der, mas limitar em um certo valor. (Isso pode ser discutido)
+
+```css
+.logo {
+  width: 100%;
+  max-width: 120px
+}
+```
+
 - Aquele `padding` que envolve o conteúdo pode ser visto como algo do header, ou então se percebido como algo que ser repete na página, pode ser um componentes também.
 
 **atoms/menu.css**
