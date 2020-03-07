@@ -83,7 +83,7 @@ O header passa a ser a tela toda aqui. E ele deve ser responsável por orquestar
 
 Reparem que o menu de busca que abriu tem um `padding` e um `background` branco assim como o componente menu que declaramos acima, então não confundam, o menu de busca faz uso do outro componente e não implementa ele todo novamente.
 
-### Leis do Atomic Design
+### Minhas Leis do Atomic Design
 
 - O componente é o CSS dele.
 - Sempre comece pelos componentes menores.
