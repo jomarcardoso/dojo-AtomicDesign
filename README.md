@@ -83,13 +83,27 @@ O header passa a ser a tela toda aqui. E ele deve ser responsável por orquestar
 
 Reparem que o menu de busca que abriu tem um `padding` e um `background` branco assim como o componente menu que declaramos acima, então não confundam, o menu de busca faz uso do outro componente e não implementa ele todo novamente.
 
+### Leis do Atomic Design
+
+- O componente é o CSS dele.
+- Sempre comece pelos componentes menores.
+- Um componente só se torna "maior" quando deve se preocupar com os outros menores.
+- O componente deve ter o mínimo para sua existência, tudo a mais deve ir em outro.
+- Tudo que visual é componente, mesmo sendo usado só uma vez.
+- Se mais que um componente altera um outro para ficar numa mesma aparência, deve-se remover a alteração desses e passar para um novo componente.
+
 ## Dúvidas frequentes
 
 **"Tudo é um componente..." Mas e a página?** Bom, o a página vai fazer o mesmo que os componentes fazem que é estilizar os componentes menores.
 
-**Quais componentes eu faço primeiro?** Os menores, porque nenhum componente deve saber quem vai renderizá-lo, enquanto sabe o que vai renderizar e, pensando em ser auto-suficiente, ele precisa fazer isso bem.
+**Quais componentes eu faço primeiro?** Os menores.
 
-**Quando eu devo desconfiar que estou fazendo errado?** Principalmente quando o CSS se estende muito. Em regra, mais de 50 linhas já da para desconfiar fortemente.
+- Para ter certeza que eles não vai ter nada a mais do que precisam.
+- Porque nenhum componente deve saber quem vai renderizá-lo, enquanto sabe o que vai renderizar e, pensando em ser auto-suficiente, ele precisa fazer isso bem.
+
+**Quando eu devo desconfiar que estou fazendo errado?** 
+
+- Principalmente quando o CSS se estende muito. Em regra, mais de 50 linhas já da para desconfiar fortemente.
+- Quando preciso passo para outros componentes e preciso voltar e editar um outro.
 
 **Por que é importante todos entenderem?** Para todos juntos concordarem e fazerem junto.
-
