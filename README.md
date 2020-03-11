@@ -87,6 +87,14 @@ Reparem que o menu de busca que abriu tem um `padding` e um `background` branco 
 
 Se um componente menor deve ser sobrescrito por outro maior, o seletor deve obrigatoriamente ficar mais forte para evitar que a sequência do CSS não altere o resultado.
 
+
+**incorreto**
+```css
+.header__icon {
+  max-width: 25px;
+}
+```
+
 **correto**
 ```css
 .header .icon {
@@ -94,9 +102,18 @@ Se um componente menor deve ser sobrescrito por outro maior, o seletor deve obri
 }
 ```
 
+ou se precisar de algo mais específico
+
 **incorreto**
 ```css
-.header__icon {
+.header__icon-burger {
+  max-width: 25px;
+}
+```
+
+**correto**
+```css
+.header__icon-burger.icon {
   max-width: 25px;
 }
 ```
