@@ -1,4 +1,4 @@
-## Padrões de projeto no CSS com Atomic Design
+# Padrões de projeto no CSS com Atomic Design
 
 O conceito de criar padrões arquitetônicos surge no livro ["Uma linguagem de padrões"](https://statics-submarino.b2w.io/sherlock/books/firstChapter/112900425.pdf):
 
@@ -14,7 +14,7 @@ O conceito de criar padrões arquitetônicos surge no livro ["Uma linguagem de p
 
 No exemplo do livro sobre as praças fala que uma praça é constituída por vários elementos, como muro e ambiente para caminhar, enquanto também a praça faz parte de algo maior que são bairros e as cidades.
 
-## Atomic design
+# Atomic design
 
 [Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões. Não deve ser a única e nada impede que alguma outra seja criada.
 
@@ -22,7 +22,7 @@ Os componentes ficam pequenos, pois a implementação de partes deles está em o
 
 O componente deve ser auto-suficiente e isso é percebido quando colocado no guia de estilos.
 
-### Tipos
+## Tipos
 
 A classificação dos componente, ao meu ver, é algo discutível e situacional, apenas usado para organizar o conteúdo sem ficar tudo no mesmo lugar.
 
@@ -36,7 +36,11 @@ São classificados como:
 - **templates** então são as partes prontas que irão compor uma página. `header`, `footer`, `main`...
 - **pages** não sei
 
-### Implementando
+## Vantagens
+
+- O tipo da renderização não importa, seja por JS seja HTML seja AMP
+
+## Implementando
 
 <kbd>
   <img src=https://user-images.githubusercontent.com/27368585/75980958-42774300-5ec2-11ea-9d9f-53ce34ea2992.png />
