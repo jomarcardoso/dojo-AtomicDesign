@@ -1,4 +1,4 @@
-## Uma linguagem de padrões e Atomic design
+## Padrões de projeto no CSS com Atomic Design
 
 O conceito de criar padrões arquitetônicos surge no livro ["Uma linguagem de padrões"](https://statics-submarino.b2w.io/sherlock/books/firstChapter/112900425.pdf):
 
@@ -83,7 +83,25 @@ O header passa a ser a tela toda aqui. E ele deve ser responsável por orquestar
 
 Reparem que o menu de busca que abriu tem um `padding` e um `background` branco assim como o componente menu que declaramos acima, então não confundam, o menu de busca faz uso do outro componente e não implementa ele todo novamente.
 
-### Minhas Leis do Atomic Design
+### Sobrescrita de componentes
+
+Se um componente menor deve ser sobrescrito por outro maior, o seletor deve obrigatoriamente ficar mais forte para evitar que a sequência do CSS não altere o resultado.
+
+**correto**
+```css
+.header .icon {
+  max-width: 25px;
+}
+```
+
+**incorreto**
+```css
+.header__icon {
+  max-width: 25px;
+}
+```
+
+## Minhas Leis do Atomic Design
 
 - O componente é o CSS dele.
 - Sempre comece pelos componentes menores.
@@ -91,6 +109,8 @@ Reparem que o menu de busca que abriu tem um `padding` e um `background` branco 
 - O componente deve ter o mínimo para sua existência, tudo a mais deve ir em outro.
 - Tudo que visual é componente, mesmo sendo usado só uma vez.
 - Se mais que um componente altera um outro para ficar numa mesma aparência, deve-se remover a alteração desses e passar para um novo componente.
+- A sobrescrita sempre deixa o seletor mais forte.
+- Não descaracterizar um componente na sobrescrita, os componentes são o que são pela sua aparência.
 
 ## Dúvidas frequentes
 
