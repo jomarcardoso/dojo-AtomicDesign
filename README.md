@@ -132,6 +132,7 @@ ou se precisar de algo mais específico
 - Se mais que um componente altera um outro para ficar numa mesma aparência, deve-se remover a alteração desses e passar para um novo componente.
 - A sobrescrita sempre deixa o seletor mais forte.
 - Não descaracterizar um componente na sobrescrita, os componentes são o que são pela sua aparência.
+- Não depender de nada do componente maior. Novamente a importância de fazer os componentes menores primeiro.
 
 ## Dúvidas frequentes
 
