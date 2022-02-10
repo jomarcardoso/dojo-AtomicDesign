@@ -16,7 +16,7 @@ No exemplo do livro sobre as praças fala que uma praça é constituída por vá
 
 # Atomic design
 
-[Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões. Não deve ser a única e nada impede que alguma outra seja criada.
+[Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões, mas como o próprio autor explica, há cada vez mais páginas que precisam funcionar em cada vez mais aparelhos e assim como um dia Henry Ford revolucinou o processo de criação de veículos automotivos, o Atomic Design vem para organizar o processo na Web.
 
 Os componentes ficam pequenos, pois a implementação de partes deles está em outro lugar.
 
