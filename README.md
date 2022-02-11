@@ -1,20 +1,4 @@
-# Padrões de projeto no CSS com Atomic Design
-
-O conceito de criar padrões arquitetônicos surge no livro ["Uma linguagem de padrões"](https://statics-submarino.b2w.io/sherlock/books/firstChapter/112900425.pdf):
-
-> Os elementos dessa linguagem são entidades chamadas de padrão. Cada padrão descreve um problema que ocorre repetidas vezes em nosso meio ambiente e então descreve o ponto central da solução do problema, de modo que você possa usar a mesma solução milhares de vezes, mas sem jamais ter de repeti-la. (Uma linguagem de padrões)
-
-- cada componente é um padrão
-- cada componente se repete várias vezes nos sites
-- uma vez que o componente está criado só precisamos usar ele e não criá-lo novamente
-
-> Cada padrão está conectado a certos padrões "maiores"(ou mais abrangentes), que estão acima dele, e a certos padrões "menores"(ou mais específicos) que estão abaixo, na linguagem. O padrão ajuda a completar aqueles padrões maiores e, ao mesmo tempo, é completado pelos padrões menores. (Uma linguagem de padrões)
-
-- os componentes são formados por outros componentes.
-
-No exemplo do livro sobre as praças fala que uma praça é constituída por vários elementos, como muro e ambiente para caminhar, enquanto também a praça faz parte de algo maior que são bairros e as cidades.
-
-## Atomic design e o Fordismo
+# Atomic design e o Fordismo
 
 [Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões, mas como o próprio autor explica, há cada vez mais páginas que precisam funcionar em cada vez mais aparelhos e assim como um dia Henry Ford revolucinou o processo de criação de veículos automotivos, o Atomic Design vem para organizar o processo na Web. Na Ford as pessoas não mais faziam um carro e sim cada um era especializado em fazer uma parte dele e é o mesmo que Brad Frost espera da Web, que as pessoas não mais façam páginas e sim cada um faz um etapa e por fim a montagem irá mostrar o resultado final.
 
