@@ -1,3 +1,5 @@
+> Uma forma muito simples de aprender algo é seguir exatamente outra pessoa que faz aquela tarefa muito bem, depois que aprender tudo com ela, desenvolva a sua própria forma de fazer. No processo de aprendizado questionar é bom, dúvidar nem tanto.
+
 # Atomic design e o Fordismo
 
 [Atomic desgin](https://bradfrost.com/blog/post/atomic-web-design/) implementa essa forma de enxergar os padrões, mas como o próprio autor explica, há cada vez mais páginas que precisam funcionar em cada vez mais aparelhos e assim como um dia Henry Ford revolucinou o processo de criação de veículos automotivos, o Atomic Design vem para organizar o processo na Web. Na Ford as pessoas não mais faziam um carro e sim cada um era especializado em fazer uma parte dele e é o mesmo que Brad Frost espera da Web, que as pessoas não mais façam páginas e sim cada um faz um etapa e por fim a montagem irá mostrar o resultado final.
@@ -5,6 +7,8 @@
 Os componentes ficam pequenos, pois a implementação de partes deles está em outro lugar.
 
 O componente deve ser auto-suficiente e isso é percebido quando colocado no guia de estilos.
+
+As empresas não podem esperar muito tempo para atualizar seus websites, mas também não podem ter que redesenhar tudo toda vez. O Atomic Design vem pensando em modularidade não só de código, mas de design experiência do usuário, acessibidade...
 
 ## Tipos
 
