@@ -1,3 +1,5 @@
+> Uma forma muito simples de aprender algo é seguir exatamente outra pessoa que faz aquela tarefa muito bem, depois que aprender tudo com ela, desenvolva a sua própria forma de fazer. No processo de aprendizado questionar é bom, dúvidar nem tanto.
+
 # Padrões de projeto
 
 O conceito de criar padrões arquitetônicos surge no livro ["Uma linguagem de padrões"](https://statics-submarino.b2w.io/sherlock/books/firstChapter/112900425.pdf):
@@ -13,8 +15,6 @@ O conceito de criar padrões arquitetônicos surge no livro ["Uma linguagem de p
 - os componentes são formados por outros componentes.
 
 No exemplo do livro sobre as praças fala que uma praça é constituída por vários elementos menores, como muro e ambiente para caminhar, enquanto também a praça faz parte de algo maior que são bairros e as cidades.
-
-> Uma forma muito simples de aprender algo é seguir exatamente outra pessoa que faz aquela tarefa muito bem, depois que aprender tudo com ela, desenvolva a sua própria forma de fazer. No processo de aprendizado questionar é bom, dúvidar nem tanto.
 
 # Atomic design e o Fordismo
 
