@@ -37,8 +37,8 @@ São classificados como:
 - **átomos** vão ter o estilo deles apenas.
 - **moléculas** serão componentes que necessariamente são compostos por átomos e talvez outras moléculas específicas.
 - **organismos** os componentes organismos começam a ter as características mais próximas da aplicação, então por vezes eles ficam mais extensos, pois sobrescrevem mais os os componentes que o compõe.
-- **templates** então são as partes prontas que irão compor uma página. `header`, `footer`, `main`...
-- **pages** não sei
+- **templates** então são as partes que irão compor uma página. `header`, `footer`, `main`... Mas ainda sem conteúdo
+- **pages** as páginas são uma forma diferente de componente, pois possui pouca responsabilidade quanto ao visual e mais com o conteúdo que será inserido nos templates.
 
 ## Vantagens
 
